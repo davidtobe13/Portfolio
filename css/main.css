@@ -1526,7 +1526,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 60px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1940,7 +1940,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transform-origin: 100% 50%;
 }
 
-.home-social li:hover span {
+. li:hover span {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
@@ -2142,12 +2142,12 @@ html.no-csstransitions .home-content__main {
         padding: 0;
     }
     .home-content__scroll {
-        bottom: -9rem;
+        bottom: -11rem;
     }
     .home-social {
         padding-bottom: 10.8rem;
     }
-    .home-social::after {
+    .::after {
         height: 10.2rem;
     }
 }
@@ -2182,10 +2182,10 @@ html.no-csstransitions .home-content__main {
         margin-right: 25px;
     }
     .home-content__buttons .btn {
-        width: 100%;
+        width: 80%;
     }
     .home-social {
-        display: none;
+        bottom: -6rem;
     }
 }
 
